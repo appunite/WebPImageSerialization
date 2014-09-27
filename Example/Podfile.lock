@@ -1,0 +1,46 @@
+PODS:
+  - libwebp (0.4.1.1):
+    - libwebp/dec
+    - libwebp/demux
+    - libwebp/dsp
+    - libwebp/enc
+    - libwebp/mux
+    - libwebp/utils
+    - libwebp/webp
+  - libwebp/dec (0.4.1.1):
+    - libwebp/enc
+    - libwebp/utils
+  - libwebp/demux (0.4.1.1):
+    - libwebp/utils
+  - libwebp/dsp (0.4.1.1):
+    - libwebp/dec
+    - libwebp/enc
+    - libwebp/utils
+  - libwebp/enc (0.4.1.1):
+    - libwebp/utils
+  - libwebp/mux (0.4.1.1):
+    - libwebp/dec
+  - libwebp/utils (0.4.1.1):
+    - libwebp/dsp
+    - libwebp/webp
+  - libwebp/webp (0.4.1.1)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+  - WebPImageSerialization (0.0.1):
+    - libwebp
+
+DEPENDENCIES:
+  - SDWebImage
+  - WebPImageSerialization (from `../`)
+
+EXTERNAL SOURCES:
+  WebPImageSerialization:
+    :path: ../
+
+SPEC CHECKSUMS:
+  libwebp: af71f9d972984ab35b088d3a1041f6d1a221ddd5
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  WebPImageSerialization: 9781b5551c301512de0d8003e878e67e075f5f04
+
+COCOAPODS: 0.33.1

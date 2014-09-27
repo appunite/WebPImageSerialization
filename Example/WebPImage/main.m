@@ -1,13 +1,12 @@
 //
 //  main.m
-//  WebPImage Example
+//  WebPImage
 //
-//  Created by Mattt Thompson on 2/12/14.
-//  Copyright (c) 2014 Mattt Thompson. All rights reserved.
+//  Created by Emil Wojtaszek on 27/09/14.
+//  Copyright (c) 2014 AppUnite.com. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {
